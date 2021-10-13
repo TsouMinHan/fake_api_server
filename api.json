@@ -1,0 +1,21 @@
+{
+    "api_list": [{
+            "name": "api1",
+            "route": "/api1",
+            "method": ["GET"],
+            "data": {
+                "status": 1,
+                "something": "123"
+            }
+        },
+        {
+            "name": "api2",
+            "route": "/api2",
+            "method": ["GET", "POST"],
+            "data": {
+                "status": 1,
+                "something": "123"
+            }
+        }
+    ]
+}
